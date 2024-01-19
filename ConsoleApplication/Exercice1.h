@@ -5,7 +5,7 @@
 #include "StudentConfiguration.h"
 #ifdef COMPILE_EXERCICE_1
 
-#include "Solution1.h"
+#include "Solution1.cpp"
 
 /*
  * Exercice 1 : Temperature Converter

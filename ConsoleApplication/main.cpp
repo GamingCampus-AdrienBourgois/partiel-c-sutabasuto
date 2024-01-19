@@ -1,5 +1,5 @@
 #include <iostream>
-#include "Exercice.h"
+#include "Exercice3.h"
 
 #ifndef AUTOGRADING
 #include "StudentConfiguration.h"
@@ -13,11 +13,7 @@ int main(int argc, char** argv)
 
 	/*------------------------------ !!! Don't touch above !!! ------------------------------*/
 	/*------------------------------------ STUDENT MAIN ------------------------------------*/
-
-	// This is the main function for the student
-
-	// You can use this function to test a specific exercice, for example exercice 1 test 1
-	// You can test multiple exercices by calling multiple times the function AutograderRunTest
+	Exercice3 exercice3;
 	ExerciceBase::AutograderRunTest(0, 0);
 	ExerciceBase::AutograderRunTest(0, 1);
 

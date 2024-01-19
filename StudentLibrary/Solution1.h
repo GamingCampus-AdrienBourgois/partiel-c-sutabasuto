@@ -2,6 +2,7 @@
 
 // Don't forget to enable the exercise in the SudentConfiguration.h file !
 #include "StudentConfiguration.h"
+#include <string> 
 #ifdef COMPILE_EXERCICE_1
 
 enum class TemperatureUnits
@@ -15,6 +16,7 @@ class Solution1 // Temperature converter
 {
 public:
 	static float ConvertTemperature(float _value, TemperatureUnits _from, TemperatureUnits _to);
+	static std::string TemperatureUnitToString(TemperatureUnits unit);
 };
 
 #endif
